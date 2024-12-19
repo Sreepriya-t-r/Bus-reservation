@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+
+}
+
+body{
+    background: linear-gradient(300deg, rgb(68, 66, 67)50%, rgb(255, 255, 255)50%);
+}
+.navbar{
+
+    background: linear-gradient(300deg,rgb(208, 208, 216) 50%, rgb(101, 87, 94)50%);
+    box-shadow: 10px 10px 10px;
+}
+
+.navbar-nav li a{
+color: rgb(0, 0, 0);
+}
+
+.navbar-brand:hover{
+    box-shadow: 10px 10px 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+.container-fluid .nav-item:hover{
+    box-shadow: 10px 10px 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+.icon a{
+    text-decoration: none;
+}
+
+.marquee{
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+    background-color: rgb(40, 40, 40);
+}
+
+.booking-container {
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+
+   
+}
+
+
+
+.sec-form{
+    margin-left: 300px;
+    
+    height: 400px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+}
+
+.row{
+    padding: 0px;
+}
+
+.img {
+    width: 600px;
+    height: 300px;
+    transition: transform 0.3s ease;
+    box-shadow: 10px 10px 10px;
+    border-radius: 80px;
+}
+
+.img:hover {
+    transform: scale(1.05); 
+   
+}
+
+.container{
+    height: 600px;
+    
+}
+
+.col-md-4 .card{
+    border-radius: 40px;
+}
+
+#card1,#card2,#card3{
+    overflow: hidden;
+}
+
+.sec-img{
+    height: 800px;
+    margin: 30px;
+     
+}
+
+#img1{
+    margin-left: 100px;
+    border-radius: 30px;
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 10px 10px rgb(41, 33, 33);
+}
+#img2{
+   margin: 20px;
+   border-radius: 30px;
+   box-shadow: 10px 10px 10px rgb(41, 33, 33);
+}
+#img3{
+    margin: 20px;
+   height: 200px;
+   width: 400px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgb(41, 33, 33);
+}
+#img4{
+    margin-left: 100px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgb(41, 33, 33);
+    
+}
+.sec-h1{
+text-align: center;
+color: rgb(0, 0, 0);
+font-size:50px;
+padding: 20px;
+margin: 10px;
+
+}
+
+ #sec-h2{
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 54px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(11, 73, 19);
+   
+}
+
+ #alleppey{
+    position: absolute;
+     top: 202%;
+     z-index: 1;
+  
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 54px;
+    font-weight: bold; 
+    border-radius: 10px;
+    background-color: rgb(11, 73, 19);
+}
+
+#kovalam{
+    position: absolute;
+     top: 235%;
+     z-index: 1;
+  
+    left: 51%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 54px;
+    font-weight: bold; 
+    border-radius: 10px;
+    background-color: rgb(11, 73, 19);
+   
+}
+
+#kochi{
+    position: absolute;
+    top: 85%;
+    z-index: 1;
+ 
+   left: 35%;
+   transform: translate(-50%, -50%);
+   color: rgb(255, 255, 255);
+   font-size: 54px;
+   font-weight: bold; 
+   border-radius: 10px;
+   background-color: rgb(11, 73, 19);  
+}
+
+.d-block{
+    margin: 100px;
+   
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .carousel-inner img {
+    max-width: 100%;
+    height: auto;
+  }
+  

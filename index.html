@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KSRTC</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg " data-aos="fade-up"
+data-aos-anchor-placement="bottom-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="https://onlineksrtcswift.com/">KSRTC</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll " style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cancellation</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Manage Booking
+          </a>
+          <ul class="dropdown-menu ">
+            <li><a class="dropdown-item" href="#">View Booking</a></li>
+          </ul>
+        </li>
+        <li class="nav-item  ">
+          <a class="nav-link  text-dark" >Feedback</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-dark" >Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link   text-dark" >Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link   text-dark" >Counter login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-dark" >Status Check</a>
+        </li>
+      </ul>
+      <div class="icon d-flex ">
+     <div class=" p-3">   <p >follow us </p></div>
+        <a href="https://www.facebook.com/share/E6jCkXnU4EBXyroL/?mibextid=JRoKGi" target="_blank" title="Facebook">
+          <img class="m-1" alt="Facebook" src="https://hdn-1.fynd.com/system/svg/social-media/icon/original/hQAbAKdvHK-facebookfooteraopcjq.svg">
+        </a>
+        <a href="https://www.instagram.com/trends.official?igsh=MXJkd25kNWc4NHNhaw==" target="_blank" title="Instagram">
+          <img class="m-1" alt="Instagram" src="https://hdn-1.fynd.com/system/svg/social-media/icon/original/UZYsGWOqXp-instagramfooterl3utrr.svg">
+        </a>
+        <a href="https://twitter.com/reliancetrends" target="_blank" title="Twitter">
+          <img class="m-1" alt="Twitter" src="https://hdn-1.fynd.com/system/svg/social-media/icon/original/oT2hW-BJjq-twitterfooternajsyr.svg">
+        </a>
+        <a href="https://www.youtube.com/@RelianceTrends" target="_blank" title="YouTube">
+          <img class="m-1" alt="YouTube" src="https://hdn-1.fynd.com/system/svg/social-media/icon/original/EYV03PDST_-youtubefootermqhcr7.svg">
+        </a>
+      </div>
+    </div>
+    </div>
+  </div>
+</nav>
+
+<marquee class="marquee"> KSRTC introduced link ticket booking facility for online portal. Book round trip tickets -Get 10% Discount.Book your KSRTC-SWIFT bus tickets from online portal.</marquee>
+
+<div class="sec-form">
+
+    <div class="row align-items-center booking-container m-0">
+       
+        <div class="col-md-6 mt-4" id="form">
+            <h2 class="text-center mb-4 fw-bold">Book Your Bus Ticket</h2>
+            <form>
+               
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="from" class="form-label">From</label>
+                        <input type="text" class="form-control" id="from" placeholder="Starting location">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="to" class="form-label">To</label>
+                        <input type="text" class="form-control" id="to" placeholder="Destination">
+                    </div>
+                </div>
+  
+           
+                <div class="mb-3">
+                    <label for="date" class="form-label">Date of Travel</label>
+                    <input type="date" class="form-control" id="date">
+                </div>
+  
+                <div class="mb-3">
+                    <label for="seats" class="form-label">Number of Seats</label>
+                    <select id="seats" class="form-select">
+                        <option selected>Select seats</option>
+                        <option>1</option>
+                        <option>2</option>
+                      
+                    </select>
+                </div>
+  
+                <div class="text-center ">
+                  <button type="button" class="btn btn-dark m-2">Primary</button>
+           
+                </div>
+            </form>
+        </div>
+  
+        <div class="col-md-6 d-flex justify-content-center image-column">
+      
+          <img  class="img" src="https://img.freepik.com/premium-vector/vector-modern-bus-black-white-illustration_600323-1399.jpg" data-src="" alt="slider-img0" width="560" height="376" fetchpriority="high">
+           
+        </div>
+       
+    </div>
+    <div class="d-flex">
+     
+  </div>
+</div>
+
+
+<div class="container py-5">
+  <h1 class="text-center mb-4">Bus Reservation Discounts</h1>
+  <div class="row g-4">
+    
+    <div class="col-md-4"  >
+      <div class="card " id="card1" data-aos="zoom-in">
+        <img src="https://www.tamilnadutourism.tn.gov.in/img/pages/mobile/kanyakumari-1654195441_67111d2d3475087ae445.webp"  height="150px" class="card-img-top" alt="Bus Route 1">
+        <div class="card-body">
+          <h5 class="card-title">Route:Trivandrum to Kanyakumari</h5>
+          <p class="card-text">Get <strong>25% off</strong> on reservations! Valid till Dec 31.</p>
+          <a href="#" class="btn btn-dark">Book Now</a>
+        </div>
+      </div>
+    </div>
+   
+    <div class="col-md-4">
+      <div class="card " id="card2"  data-aos="zoom-in">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPZdX5MutHnap1frLGvgAqwr0NRq0jFB8vOQ&s"   height="150px" class="card-img-top" alt="Bus Route 2">
+        <div class="card-body">
+          <h5 class="card-title">Route: Trivandrum to Palakkad</h5>
+          <p class="card-text">Flat <strong>15% discount</strong> on early bookings!</p>
+          <a href="#" class="btn btn-dark">Book Now</a>
+        </div>
+      </div>
+    </div>
+   
+    <div class="col-md-4">
+      <div class="card " id="card3"  data-aos="zoom-in">
+        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/45002629.jpg?k=e56eab87264865b6e1077ffa21c083c0ca3e6b3cf070269f75950615ff5382ab&o=&hp=1" class="card-img-top"  height="150px" alt="Bus Route 3">
+        <div class="card-body">
+          <h5 class="card-title">Route:Trivandrum to Munnar</h5>
+          <p class="card-text">Special offer: <strong>Buy 1 Get 1 Free</strong> for families!</p>
+          <a href="#" class="btn btn-dark ">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><hr>
+
+<div class="sec-img">
+  <h1 class="sec-h1">𝓟𝓸𝓹𝓾𝓵𝓪𝓻 𝓓𝓮𝓼𝓽𝓲𝓷𝓪𝓽𝓲𝓸𝓷𝓼 𝓯𝓻𝓸𝓶 𝓣𝓻𝓲𝓿𝓪𝓷𝓭𝓻𝓾𝓶</h1>
+  <div class="row">
+    <div class="col-5" data-aos="fade-down-right">
+      <h2 id="sec-h2" >Munnar</h2>
+      <img id="img1" src="https://assets.onlineksrtcswift.com/img/theme64/top-destination/munnar.jpg" alt="Trivandrum to Munnar">
+    </div>
+    <div class="col-3" >
+      <h2 id="alleppey"   data-aos="flip-left">Alleppey</h2>
+      <img id="img2" data-aos="flip-left" src="https://assets.onlineksrtcswift.com/img/theme64/top-destination/alleppey.jpg" alt="Trivandrum to Alleppey">
+      <h2 id="kovalam" data-aos="flip-right">Kovalam</h2>
+      <img id="img3" data-aos="flip-right" src="https://assets.onlineksrtcswift.com/img/theme64/top-destination/kovalam.jpg" alt="Trivandrum to Kovalam">
+
+    </div>
+    <div class="col-4"data-aos="fade-up-left">
+      <h2 id="kochi">Kochi</h2>
+      <img id="img4" src="https://assets.onlineksrtcswift.com/img/theme64/top-destination/kochi.jpg" alt="Trivandrum to Kochi">
+    </div>
+  </div>
+</div>
+
+<div class="container py-5">
+  <h1 class="text-center text-light fw-bold mb-4">Client Feedback</h1>
+  <div class="row g-4">
+    
+    <div class="col-md-4"  >
+      <div class="card " id="card1" data-aos="zoom-in">
+      
+        <img src="https://assets.onlineksrtcswift.com/img/theme64/ic_user_gray.svg" height="150px" class="card-img-top" alt="Bus Route 1">
+        <div class="card-body">
+          <p><strong>David K</strong> </p>
+          <p class="card-text"><strong>  KSRTC is the best transportation service in Kerala. KSRTC Provides you a safe and secure
+            journey. It also has services outside Kerala. I LOVE MY KSRTC.The journey in the bus is fine.</strong></p>
+     
+        </div>
+      </div>
+    </div>
+   
+     
+    <div class="col-md-4"  >
+      <div class="card " id="card1" data-aos="zoom-in">
+    
+        <img src="https://assets.onlineksrtcswift.com/img/theme64/ic_user_gray.svg" height="150px" class="card-img-top" alt="Bus Route 1">
+        <div class="card-body">
+         <p><strong>Krishna K S</strong> </p>
+          <p class="card-text"><strong> I Liked: Punctuality, Staff behavior, Cleanliness, Seat comfort, Nice experience with
+            KSRTC Buses.Except few buses, the busses are good and well maintained. </strong></p>
+     
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-4"  >
+      <div class="card " id="card1" data-aos="zoom-in">
+       
+        <img src="https://assets.onlineksrtcswift.com/img/theme64/ic_user_gray.svg" height="150px" class="card-img-top" alt="Bus Route 1">
+        <div class="card-body">
+          <p><strong>Mukesh R</strong> </p>
+          <p class="card-text"><strong>A great Kerala Government Bus Booking App, for those in Kerala and those in other states
+            close to Kerala, who can easily book bus tickets and parcels online.</strong></p>
+     
+        </div>
+      </div>
+    </div>
+  </div>
+</div><hr>
+
+
+
+
+
+<footer class="bg-dark text-white pt-4">
+  <div class="container2">
+    <div class="row">
+    
+      <div class="col-md-4 mb-3 ">
+        <h5 class="ms-1">About Us</h5>
+        <p>We are dedicated to providing the best services. Contact us anytime for inquiries or support.</p>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <h5>Contact Us</h5>
+    
+        <p>  Route Related Enquiry</p>
+        <p>18005994011(Toll Free)</p>
+        <p>Technical Enquiry</p>
+        <p>rsnksrtc@kerala.gov.in</p>
+        <p><i class="fas fa-phone me-2"></i> +91 9819220010</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i> 1234 Street Trivandrum, India</p>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <h5>Follow Us</h5>
+        <a href="#" class="text-white text-decoration-none me-3">
+          <i class="fab fa-facebook fa-lg"></i>
+        </a>
+        <a href="#" class="text-white text-decoration-none me-3">
+          <i class="fab fa-twitter fa-lg"></i>
+        </a>
+        <a href="#" class="text-white text-decoration-none me-3">
+          <i class="fab fa-instagram fa-lg"></i>
+        </a>
+        <a href="#" class="text-white text-decoration-none">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
